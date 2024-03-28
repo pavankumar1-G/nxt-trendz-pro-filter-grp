@@ -1,0 +1,86 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+}
+.search-input {
+  border-width: 0;
+  background-color: transparent;
+  height: 36px;
+  width: 300px;
+  outline: none;
+}
+.category-heading {
+  color: #12022f;
+  font-weight: 900;
+  font-size: 15px;
+}
+.category-list {
+  padding-left: 0;
+}
+.category-item {
+  list-style-type: none;
+  color: #475569;
+  font-size: 14px;
+  cursor: pointer;
+}
+.category-name {
+  color: #475569;
+  font-size: 14px;
+}
+.active-category-name {
+  color: #0967d2;
+  font-size: 15px;
+}
+.rating-heading {
+  color: #12022f;
+  font-weight: 900;
+  font-size: 15px;
+}
+.rating-list {
+  padding-left: 0;
+}
+.rating-item {
+  list-style-type: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.rating-img {
+  height: 25px;
+}
+.and-up {
+  color: #475569;
+}
+.active-and-up {
+  color: #0967d2;
+}
+.clear-button{
+  background-color: transparent;
+  border: 1.5px solid #0967d2;
+  height: 36px;
+  width: 100px;
+  border-radius: 10px;
+  color: #0967d2;
+  font-weight: 600;
+  cursor: pointer;
+
+}
